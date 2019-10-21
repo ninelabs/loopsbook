@@ -1,0 +1,27 @@
+.btn-amazon {
+  background-color: #fecd44;
+  border-color: #f9b303;
+  color: #222;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  padding: 12px 24px;
+  transition: background-color 0s !important;
+
+  &:focus,
+  &:hover,
+  &:active {
+    border-color: #f9b303 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+
+  &:active,
+  &:hover {
+    background-color: #f9d98a !important;
+  }
+
+  &:active {
+    transform: translateY(1px) !important;
+  }
+}
